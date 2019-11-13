@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda Express</title>
+</head>
+
+<body>
+    <h1>Bienvenido a la Tienda Express</h1>
+    <form action="/" method="GET">
+        <table>
+            <tr>
+                <td>
+                    <img src="images/iphonex.jpg" alt="iphone" width="200px" height="200px">
+                    Camisa: <br>
+                    Precio: 4.500.000 <br>
+                    Cantidad:
+                    <input type="number" name="entrada1" value="0">
+                </td>
+                <td>
+                    <img src="images/ipad.jpg" alt="iphone" width="200px" height="200px">
+                    Camisa: <br>
+                    Precio: 1.200.000 <br>
+                    Cantidad:
+                    <input type="number" name="entrada2" value="0">
+                </td>
+                <td>
+                    <img src="images/mac.jpg" alt="iphone" width="200px" height="200px">
+                    Camisa: <br>
+                    Precio: 6.300.000 <br>
+                    Cantidad:
+                    <input type="number" name="entrada3" value="0">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Total">
+        <h1>El total a pagar es: {{total}}</h1>
+    </form>
+</body>
+
+</html>
